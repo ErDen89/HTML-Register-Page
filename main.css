@@ -1,0 +1,43 @@
+body {
+    background-color: green;
+    magrin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    height: 80vh;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: .75rem 0;
+    border-bottom: dotted 5px blue;
+    box-shadow: black;
+}
+
+header a {
+    color: white;
+    background-color: blue;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: .30rem .7rem;
+    margin-left: .7rem;
+    text-decoration-skip: 2;
+}
+
+header a: hover, form button:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.container {
+    margin: auto;
+    padding: 1.5rem;
+    background-color: lightgreen;
+    border: solid 1px gray;
+    border-radius: 20px;
+    
+}
+
+footer img {
+    margin: 0 .5rem;
+}
